@@ -1,0 +1,14 @@
+2
+
+To understand the concepts:
+
+state ===> [export const varaible]===> mention the initial State of the component 
+
+Actions ===> [export const varaible] ===> mention the actions required todo like 
+                                          createPosts,UpdatePost,Delete
+
+Reducer ====> [export function ] ==> it is a pure function. here we will update the state
+                                     based on the action we do from initial state to current state.
+
+Effects ====> [service file] ==> it a service. based on the actions, it will update 
+                                 the state through service 

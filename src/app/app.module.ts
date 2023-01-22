@@ -13,7 +13,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { CounterHomeComponent } from './counter-home/counter-home.component';
-import { ProductsListComponent } from './products-list/products-list.component';
+import { ProductsListComponent } from './posts-list/products-list.component';
 @NgModule({
   declarations: [AppComponent, CounterButtonsComponent, CounterOutputComponent, CustomCounterInputComponent, HeaderComponent, HomeComponent, CounterHomeComponent, ProductsListComponent],
   imports: [
